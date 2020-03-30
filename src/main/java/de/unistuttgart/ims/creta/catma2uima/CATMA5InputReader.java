@@ -2,7 +2,6 @@ package de.unistuttgart.ims.creta.catma2uima;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FilenameFilter;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Comparator;
@@ -17,6 +16,9 @@ import org.apache.uima.jcas.JCas;
 import org.apache.uima.jcas.tcas.DocumentAnnotation;
 import org.apache.uima.resource.ResourceInitializationException;
 import org.apache.uima.util.Progress;
+import org.eclipse.collections.api.factory.Lists;
+import org.eclipse.collections.api.list.ImmutableList;
+import org.eclipse.collections.api.list.MutableList;
 import org.eclipse.collections.api.map.MutableMap;
 import org.eclipse.collections.api.multimap.MutableMultimap;
 import org.eclipse.collections.impl.factory.Maps;
@@ -43,7 +45,8 @@ public class CATMA5InputReader extends JCasCollectionReader_ImplBase {
 	@ConfigurationParameter(name = PARAM_RECURSIVE, mandatory = false, defaultValue = "false")
 	boolean recursive;
 
-	File[] files;
+	ImmutableList<File> files;
+	// File[] files;
 
 	int current = 0;
 
@@ -58,18 +61,7 @@ public class CATMA5InputReader extends JCasCollectionReader_ImplBase {
 			throw new ResourceInitializationException("Input directory needs to be a directory ({0} is not ) ",
 					new Object[] { inputDirectoryName });
 
-		if (recursive) {
-			// TODO: implement
-			throw new UnsupportedOperationException();
-		} else {
-			files = inputDirectory.listFiles(new FilenameFilter() {
-				@Override
-				public boolean accept(File dir, String name) {
-					return name.endsWith(fileSuffix);
-				}
-			});
-		}
-		System.err.println(".");
+		files = getFiles(inputDirectory, fileSuffix, recursive);
 	}
 
 	@Override
@@ -79,12 +71,12 @@ public class CATMA5InputReader extends JCasCollectionReader_ImplBase {
 
 	@Override
 	public boolean hasNext() throws IOException, CollectionException {
-		return current < files.length;
+		return current < files.size();
 	}
 
 	@Override
 	public void getNext(JCas jcas) throws IOException, CollectionException {
-		File file = files[current++];
+		File file = files.get(current++);
 		try (FileInputStream fis = new FileInputStream(file)) {
 			jcas = process(jcas, fis);
 		} catch (UIMAException e) {
@@ -176,5 +168,18 @@ public class CATMA5InputReader extends JCasCollectionReader_ImplBase {
 		// AnalysisEngineFactory.createEngineDescription(AnnotationMerger.class));
 
 		return jcas;
+	}
+
+	private ImmutableList<File> getFiles(File directory, String fileSuffix, boolean recursive) {
+		MutableList<File> files = Lists.mutable.empty();
+		for (File f : directory.listFiles()) {
+			if (f.getName().endsWith(fileSuffix))
+				files.add(f);
+			else if (f.isDirectory()) {
+				if (recursive)
+					files.addAll(getFiles(f, fileSuffix, recursive).castToCollection());
+			}
+		}
+		return files.toImmutable();
 	}
 }
