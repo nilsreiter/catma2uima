@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>de.unistuttgart.ims.creta</groupId>
 	<artifactId>catma2uima</artifactId>
-	<version>1.0.0</version>
+	<version>1.1.0-SNAPSHOT</version>
 	<name>${project.groupId}:${project.artifactId}</name>
 	<url>https://github.com/nilsreiter/catma2uima</url>
 	<description>An input reader for UIMA that reads in CATMA 5 TEI exports</description>
