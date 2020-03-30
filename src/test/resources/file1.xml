@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Buechner Lenz_jeise003@fiu.edu_2018-06-25T23:48:23.278</title>
+                <author>empty</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>empty</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <p>empty</p>
+                <ab>
+                    <fs xml:id="CATMA_TECH_DESC">
+                        <f name="version">
+                            <string>5</string>
+                        </f>
+                    </fs>
+                </ab>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <fsdDecl xml:id="CATMA_698F68CD-5B29-418E-8805-967BB200EA68" n="narrative_levels_1 2018-06-18T14:12:08.000+0200">
+                <fsDecl xml:id="CATMA_F07E1FDB-90E6-4D2E-9A88-DD76BEE5933B" n="2018-06-18T14:11:56.000+0200" type="CATMA_F07E1FDB-90E6-4D2E-9A88-DD76BEE5933B">
+                    <fsDescr>embedded narrative</fsDescr>
+                    <fDecl xml:id="CATMA_4CF45BFC-4116-4082-9303-B726623C2094" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-11630898</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_B6565416-5E23-48B7-89B4-B831CFB930E8" name="catma_markupauthor">
+                        <vRange>
+                            <vColl>
+                                <string>evelyn.gius@gmail.com</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_8C24EE51-E0D3-4DF2-90F0-F1AF70D0D9ED" name="ID_number">
+                        <vRange>
+                            <vColl>
+                                <string>1</string>
+                                <string>2</string>
+                                <string>3</string>
+                                <string>4</string>
+                                <string>5</string>
+                                <string>6</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+                <fsDecl xml:id="CATMA_747D60FC-0BA4-42FB-9966-5383F220B123" n="2018-06-18T14:09:56.000+0200" type="CATMA_747D60FC-0BA4-42FB-9966-5383F220B123">
+                    <fsDescr>narrator</fsDescr>
+                    <fDecl xml:id="CATMA_A0945849-E7CE-489E-9DFE-25D3B6635D51" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-979429</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_8168E988-67E7-41E0-90C1-B94F6A9D3E90" name="catma_markupauthor">
+                        <vRange>
+                            <vColl>
+                                <string>evelyn.gius@gmail.com</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_F38B26F0-2EC5-4D35-A29C-B0770342B154" name="name">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_30D6653D-C71A-4E57-B549-15B76CC4DE2B" name="point_of_view">
+                        <vRange>
+                            <vColl>
+                                <string>1st person unnamed</string>
+                                <string>3rd person</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+                <fsDecl xml:id="CATMA_B37247D7-E35E-42CA-B55F-D7168A9582BA" n="2018-06-18T14:16:14.000+0200" type="CATMA_B37247D7-E35E-42CA-B55F-D7168A9582BA">
+                    <fsDescr>narrative</fsDescr>
+                    <fDecl xml:id="CATMA_5E24136F-6DC9-4A7E-93ED-B024436D4582" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-398073</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_D57B8A17-4DF3-4354-BA98-F0D56629960F" name="catma_markupauthor">
+                        <vRange>
+                            <vColl>
+                                <string>evelyn.gius@gmail.com</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_B61F91A0-CE3D-48FF-A00E-267D0975E504" name="narrative_name">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_42442F19-3470-42A7-87FA-DB106D3FB4A8" name="ID_number">
+                        <vRange>
+                            <vColl>
+                                <string>1</string>
+                                <string>2</string>
+                                <string>3</string>
+                                <string>4</string>
+                                <string>5</string>
+                                <string>6</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+                <fsDecl xml:id="CATMA_970AD875-A3CF-42AD-8B17-246EA0C2625A" n="2018-06-18T14:15:45.000+0200" type="CATMA_970AD875-A3CF-42AD-8B17-246EA0C2625A">
+                    <fsDescr>type of narrative</fsDescr>
+                    <fDecl xml:id="CATMA_75300652-40AD-4A46-ADE8-2A364BFAB2EB" name="catma_markupauthor">
+                        <vRange>
+                            <vColl>
+                                <string>evelyn.gius@gmail.com</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_1E005D8F-AB17-4DF0-95B9-D0C237AE26C5" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-16084408</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_BC43AB45-292E-4EC8-AFD3-F8E035C2475E" name="type">
+                        <vRange>
+                            <vColl>
+                                <string>original</string>
+                                <string>embedded</string>
+                                <string>interruptive</string>
+                                <string>embedded flashback</string>
+                                <string>embedded flashforward</string>
+                                <string>embedded dream or vision</string>
+                                <string>interruptive flashback</string>
+                                <string>interruptive flashforward</string>
+                                <string>interruptive dream or vision</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+            </fsdDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <ab type="catma">
+                <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=0,46" type="inclusion"/>
+                <seg ana="#CATMA_2DE27F55-45F8-4306-8D02-E68FFC5A3557">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=46,151" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_2DE27F55-45F8-4306-8D02-E68FFC5A3557">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=151,254" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_2DE27F55-45F8-4306-8D02-E68FFC5A3557">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=254,359" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_2DE27F55-45F8-4306-8D02-E68FFC5A3557">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=359,460" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_2DE27F55-45F8-4306-8D02-E68FFC5A3557">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=460,563" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_2DE27F55-45F8-4306-8D02-E68FFC5A3557">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=563,668" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_2DE27F55-45F8-4306-8D02-E68FFC5A3557">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=668,768" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_2DE27F55-45F8-4306-8D02-E68FFC5A3557">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=768,873" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_2DE27F55-45F8-4306-8D02-E68FFC5A3557">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=873,978" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_2DE27F55-45F8-4306-8D02-E68FFC5A3557">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=978,1083" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_2DE27F55-45F8-4306-8D02-E68FFC5A3557">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=1083,1186" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_2DE27F55-45F8-4306-8D02-E68FFC5A3557">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=1186,1229" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_2DE27F55-45F8-4306-8D02-E68FFC5A3557 #CATMA_0AEC544C-7F15-4B42-819D-630056E8910F">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=1229,1287" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_2DE27F55-45F8-4306-8D02-E68FFC5A3557 #CATMA_0AEC544C-7F15-4B42-819D-630056E8910F">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=1287,1389" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_2DE27F55-45F8-4306-8D02-E68FFC5A3557 #CATMA_0AEC544C-7F15-4B42-819D-630056E8910F">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=1389,1494" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_2DE27F55-45F8-4306-8D02-E68FFC5A3557 #CATMA_0AEC544C-7F15-4B42-819D-630056E8910F">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=1494,1592" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_2DE27F55-45F8-4306-8D02-E68FFC5A3557 #CATMA_0AEC544C-7F15-4B42-819D-630056E8910F">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=1592,1694" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_2DE27F55-45F8-4306-8D02-E68FFC5A3557 #CATMA_0AEC544C-7F15-4B42-819D-630056E8910F">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=1694,1795" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_2DE27F55-45F8-4306-8D02-E68FFC5A3557 #CATMA_0AEC544C-7F15-4B42-819D-630056E8910F">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=1795,1896" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_2DE27F55-45F8-4306-8D02-E68FFC5A3557 #CATMA_0AEC544C-7F15-4B42-819D-630056E8910F">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=1896,2001" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_2DE27F55-45F8-4306-8D02-E68FFC5A3557 #CATMA_0AEC544C-7F15-4B42-819D-630056E8910F">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=2001,2103" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_2DE27F55-45F8-4306-8D02-E68FFC5A3557 #CATMA_0AEC544C-7F15-4B42-819D-630056E8910F">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=2103,2207" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_2DE27F55-45F8-4306-8D02-E68FFC5A3557 #CATMA_0AEC544C-7F15-4B42-819D-630056E8910F">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=2207,2312" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_2DE27F55-45F8-4306-8D02-E68FFC5A3557 #CATMA_0AEC544C-7F15-4B42-819D-630056E8910F">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=2312,2417" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_2DE27F55-45F8-4306-8D02-E68FFC5A3557 #CATMA_0AEC544C-7F15-4B42-819D-630056E8910F">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=2417,2518" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_FC3A5DDD-8632-4E32-ABAC-9D85A39BBF40 #CATMA_4F7211F1-3427-499F-88C7-84F4537B59C3">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=2518,2623" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_FC3A5DDD-8632-4E32-ABAC-9D85A39BBF40 #CATMA_4F7211F1-3427-499F-88C7-84F4537B59C3">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=2623,2727" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_FC3A5DDD-8632-4E32-ABAC-9D85A39BBF40 #CATMA_4F7211F1-3427-499F-88C7-84F4537B59C3">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=2727,2766" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_FC3A5DDD-8632-4E32-ABAC-9D85A39BBF40">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=2766,2829" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_FC3A5DDD-8632-4E32-ABAC-9D85A39BBF40">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=2829,2934" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_FC3A5DDD-8632-4E32-ABAC-9D85A39BBF40">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=2934,3036" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_FC3A5DDD-8632-4E32-ABAC-9D85A39BBF40">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=3036,3141" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_FC3A5DDD-8632-4E32-ABAC-9D85A39BBF40">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=3141,3245" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_FC3A5DDD-8632-4E32-ABAC-9D85A39BBF40">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=3245,3350" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_FC3A5DDD-8632-4E32-ABAC-9D85A39BBF40">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=3350,3453" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_FC3A5DDD-8632-4E32-ABAC-9D85A39BBF40">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=3453,3558" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_FC3A5DDD-8632-4E32-ABAC-9D85A39BBF40">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=3558,3663" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_FC3A5DDD-8632-4E32-ABAC-9D85A39BBF40">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=3663,3768" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_FC3A5DDD-8632-4E32-ABAC-9D85A39BBF40">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=3768,3871" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_FC3A5DDD-8632-4E32-ABAC-9D85A39BBF40">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=3871,3976" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_FC3A5DDD-8632-4E32-ABAC-9D85A39BBF40">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=3976,4078" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_FC3A5DDD-8632-4E32-ABAC-9D85A39BBF40">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=4078,4179" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_FC3A5DDD-8632-4E32-ABAC-9D85A39BBF40">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=4179,4279" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_FC3A5DDD-8632-4E32-ABAC-9D85A39BBF40">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=4279,4384" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_FC3A5DDD-8632-4E32-ABAC-9D85A39BBF40">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=4384,4485" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_FC3A5DDD-8632-4E32-ABAC-9D85A39BBF40">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=4485,4590" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_FC3A5DDD-8632-4E32-ABAC-9D85A39BBF40">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=4590,4695" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_FC3A5DDD-8632-4E32-ABAC-9D85A39BBF40">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=4695,4795" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_FC3A5DDD-8632-4E32-ABAC-9D85A39BBF40">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=4795,4898" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_FC3A5DDD-8632-4E32-ABAC-9D85A39BBF40">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=4898,4999" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_FC3A5DDD-8632-4E32-ABAC-9D85A39BBF40">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=4999,5102" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_FC3A5DDD-8632-4E32-ABAC-9D85A39BBF40">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=5102,5203" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_FC3A5DDD-8632-4E32-ABAC-9D85A39BBF40">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=5203,5306" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_FC3A5DDD-8632-4E32-ABAC-9D85A39BBF40">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=5306,5411" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_FC3A5DDD-8632-4E32-ABAC-9D85A39BBF40">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=5411,5512" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_98DCA609-1BDD-49C9-92F9-346C88C23F02">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=5512,5615" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_98DCA609-1BDD-49C9-92F9-346C88C23F02">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=5615,5626" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_98DCA609-1BDD-49C9-92F9-346C88C23F02 #CATMA_9DC8FFED-212A-471E-A5C1-CE97EF673830">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=5626,5720" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_98DCA609-1BDD-49C9-92F9-346C88C23F02 #CATMA_9DC8FFED-212A-471E-A5C1-CE97EF673830">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=5720,5824" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_98DCA609-1BDD-49C9-92F9-346C88C23F02 #CATMA_9DC8FFED-212A-471E-A5C1-CE97EF673830">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=5824,5843" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_98DCA609-1BDD-49C9-92F9-346C88C23F02">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=5843,5922" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_98DCA609-1BDD-49C9-92F9-346C88C23F02">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=5922,6027" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_98DCA609-1BDD-49C9-92F9-346C88C23F02">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=6027,6132" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_98DCA609-1BDD-49C9-92F9-346C88C23F02">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=6132,6237" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_98DCA609-1BDD-49C9-92F9-346C88C23F02">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=6237,6342" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_98DCA609-1BDD-49C9-92F9-346C88C23F02">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=6342,6447" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_98DCA609-1BDD-49C9-92F9-346C88C23F02">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=6447,6551" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_98DCA609-1BDD-49C9-92F9-346C88C23F02">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=6551,6647" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_98DCA609-1BDD-49C9-92F9-346C88C23F02">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=6647,6750" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_98DCA609-1BDD-49C9-92F9-346C88C23F02">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=6750,6851" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_98DCA609-1BDD-49C9-92F9-346C88C23F02">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=6851,6881" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_98DCA609-1BDD-49C9-92F9-346C88C23F02">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=6881,6883" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_98DCA609-1BDD-49C9-92F9-346C88C23F02">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=6883,6987" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_98DCA609-1BDD-49C9-92F9-346C88C23F02">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=6987,7091" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_98DCA609-1BDD-49C9-92F9-346C88C23F02">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=7091,7093" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_98DCA609-1BDD-49C9-92F9-346C88C23F02">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=7093,7187" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_98DCA609-1BDD-49C9-92F9-346C88C23F02">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=7187,7189" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_98DCA609-1BDD-49C9-92F9-346C88C23F02 #CATMA_64AA5575-92BC-4534-827C-5D7B6EA190D4">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=7189,7211" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_98DCA609-1BDD-49C9-92F9-346C88C23F02 #CATMA_64AA5575-92BC-4534-827C-5D7B6EA190D4">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=7211,7213" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_98DCA609-1BDD-49C9-92F9-346C88C23F02 #CATMA_64AA5575-92BC-4534-827C-5D7B6EA190D4">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=7213,7241" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_98DCA609-1BDD-49C9-92F9-346C88C23F02 #CATMA_64AA5575-92BC-4534-827C-5D7B6EA190D4">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=7241,7243" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_98DCA609-1BDD-49C9-92F9-346C88C23F02 #CATMA_64AA5575-92BC-4534-827C-5D7B6EA190D4">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=7243,7267" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_98DCA609-1BDD-49C9-92F9-346C88C23F02 #CATMA_64AA5575-92BC-4534-827C-5D7B6EA190D4">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=7267,7269" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_98DCA609-1BDD-49C9-92F9-346C88C23F02 #CATMA_64AA5575-92BC-4534-827C-5D7B6EA190D4">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=7269,7295" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_98DCA609-1BDD-49C9-92F9-346C88C23F02">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=7295,7297" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_98DCA609-1BDD-49C9-92F9-346C88C23F02">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=7297,7400" type="inclusion"/>
+                </seg>
+                <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=7400,7401" type="inclusion"/>
+                <seg ana="#CATMA_6ADCD916-446C-429E-B487-8FCAACF7F8E3">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=7401,7505" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_6ADCD916-446C-429E-B487-8FCAACF7F8E3">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=7505,7607" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_6ADCD916-446C-429E-B487-8FCAACF7F8E3">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=7607,7711" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_6ADCD916-446C-429E-B487-8FCAACF7F8E3">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=7711,7813" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_6ADCD916-446C-429E-B487-8FCAACF7F8E3">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=7813,7918" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_6ADCD916-446C-429E-B487-8FCAACF7F8E3">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=7918,8018" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_6ADCD916-446C-429E-B487-8FCAACF7F8E3">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=8018,8120" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_6ADCD916-446C-429E-B487-8FCAACF7F8E3">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=8120,8157" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_6ADCD916-446C-429E-B487-8FCAACF7F8E3">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=8157,8159" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_6ADCD916-446C-429E-B487-8FCAACF7F8E3">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=8159,8227" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_6ADCD916-446C-429E-B487-8FCAACF7F8E3 #CATMA_3701943D-0350-4755-9F1B-0F2CA6A476B9">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=8227,8264" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_6ADCD916-446C-429E-B487-8FCAACF7F8E3 #CATMA_3701943D-0350-4755-9F1B-0F2CA6A476B9">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=8264,8366" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_6ADCD916-446C-429E-B487-8FCAACF7F8E3 #CATMA_3701943D-0350-4755-9F1B-0F2CA6A476B9">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=8366,8471" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_6ADCD916-446C-429E-B487-8FCAACF7F8E3 #CATMA_3701943D-0350-4755-9F1B-0F2CA6A476B9">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=8471,8518" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_6ADCD916-446C-429E-B487-8FCAACF7F8E3">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=8518,8545" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_6ADCD916-446C-429E-B487-8FCAACF7F8E3 #CATMA_33B4BF38-F7D7-4928-9064-BF33D57A9141">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=8545,8573" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_6ADCD916-446C-429E-B487-8FCAACF7F8E3 #CATMA_33B4BF38-F7D7-4928-9064-BF33D57A9141">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=8573,8678" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_6ADCD916-446C-429E-B487-8FCAACF7F8E3 #CATMA_33B4BF38-F7D7-4928-9064-BF33D57A9141">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=8678,8703" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_6ADCD916-446C-429E-B487-8FCAACF7F8E3">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=8703,8742" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_6ADCD916-446C-429E-B487-8FCAACF7F8E3 #CATMA_8908E5AF-9EEC-4F90-A2B1-C5885228E666">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=8742,8783" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_6ADCD916-446C-429E-B487-8FCAACF7F8E3 #CATMA_8908E5AF-9EEC-4F90-A2B1-C5885228E666">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=8783,8888" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_6ADCD916-446C-429E-B487-8FCAACF7F8E3 #CATMA_8908E5AF-9EEC-4F90-A2B1-C5885228E666">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=8888,8898" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_6ADCD916-446C-429E-B487-8FCAACF7F8E3">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=8898,8918" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_6ADCD916-446C-429E-B487-8FCAACF7F8E3 #CATMA_A65F5788-3F31-4CFD-9E5F-38DD7DD024A7">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=8918,8993" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_6ADCD916-446C-429E-B487-8FCAACF7F8E3 #CATMA_A65F5788-3F31-4CFD-9E5F-38DD7DD024A7">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=8993,9031" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_6ADCD916-446C-429E-B487-8FCAACF7F8E3">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=9031,9050" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_6ADCD916-446C-429E-B487-8FCAACF7F8E3 #CATMA_D6CDC0F6-12D9-4F47-8B42-71473E699CFC">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=9050,9097" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_6ADCD916-446C-429E-B487-8FCAACF7F8E3 #CATMA_D6CDC0F6-12D9-4F47-8B42-71473E699CFC">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=9097,9151" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_6ADCD916-446C-429E-B487-8FCAACF7F8E3">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=9151,9169" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_6ADCD916-446C-429E-B487-8FCAACF7F8E3 #CATMA_C270773A-11E0-4C14-81EA-CB3F87568064">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=9169,9200" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_6ADCD916-446C-429E-B487-8FCAACF7F8E3 #CATMA_C270773A-11E0-4C14-81EA-CB3F87568064">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=9200,9302" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_6ADCD916-446C-429E-B487-8FCAACF7F8E3 #CATMA_C270773A-11E0-4C14-81EA-CB3F87568064">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=9302,9400" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_6ADCD916-446C-429E-B487-8FCAACF7F8E3 #CATMA_C270773A-11E0-4C14-81EA-CB3F87568064">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=9400,9505" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_6ADCD916-446C-429E-B487-8FCAACF7F8E3 #CATMA_C270773A-11E0-4C14-81EA-CB3F87568064">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=9505,9607" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_6ADCD916-446C-429E-B487-8FCAACF7F8E3 #CATMA_C270773A-11E0-4C14-81EA-CB3F87568064">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=9607,9703" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_6ADCD916-446C-429E-B487-8FCAACF7F8E3">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=9703,9705" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_6ADCD916-446C-429E-B487-8FCAACF7F8E3">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=9705,9736" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_6ADCD916-446C-429E-B487-8FCAACF7F8E3 #CATMA_A4D69056-8E36-4057-A5F4-3FFDE7A2924C">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=9736,9809" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_6ADCD916-446C-429E-B487-8FCAACF7F8E3 #CATMA_A4D69056-8E36-4057-A5F4-3FFDE7A2924C">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=9809,9913" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_6ADCD916-446C-429E-B487-8FCAACF7F8E3 #CATMA_A4D69056-8E36-4057-A5F4-3FFDE7A2924C">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=9913,10016" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_6ADCD916-446C-429E-B487-8FCAACF7F8E3 #CATMA_A4D69056-8E36-4057-A5F4-3FFDE7A2924C">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=10016,10088" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_6ADCD916-446C-429E-B487-8FCAACF7F8E3">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=10088,10119" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_F48BADE1-A034-4C51-A441-32983B8D5028">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=10119,10193" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_F48BADE1-A034-4C51-A441-32983B8D5028 #CATMA_724B2B3D-A87C-4B11-8A8F-5FCFBF5E754F">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=10193,10222" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_F48BADE1-A034-4C51-A441-32983B8D5028 #CATMA_724B2B3D-A87C-4B11-8A8F-5FCFBF5E754F">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=10222,10325" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_F48BADE1-A034-4C51-A441-32983B8D5028 #CATMA_724B2B3D-A87C-4B11-8A8F-5FCFBF5E754F">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=10325,10427" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_F48BADE1-A034-4C51-A441-32983B8D5028 #CATMA_724B2B3D-A87C-4B11-8A8F-5FCFBF5E754F">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=10427,10531" type="inclusion"/>
+                </seg>
+                <seg ana="#CATMA_F48BADE1-A034-4C51-A441-32983B8D5028">
+                    <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=10531,10538" type="inclusion"/>
+                </seg>
+                <ptr target="catma://CATMA_9F52E966-8D09-44D4-A38B-A018A43E8D8A#char=10538,10624" type="inclusion"/>
+            </ab>
+        </body>
+        <fs xml:id="CATMA_2DE27F55-45F8-4306-8D02-E68FFC5A3557" type="CATMA_B37247D7-E35E-42CA-B55F-D7168A9582BA">
+            <f name="catma_displaycolor">
+                <string>-398073</string>
+            </f>
+            <f name="catma_markupauthor">
+                <string>jeise003@fiu.edu</string>
+            </f>
+            <f name="narrative_name"/>
+            <f name="ID_number">
+                <string>1</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_0AEC544C-7F15-4B42-819D-630056E8910F" type="CATMA_F07E1FDB-90E6-4D2E-9A88-DD76BEE5933B">
+            <f name="catma_displaycolor">
+                <string>-11630898</string>
+            </f>
+            <f name="catma_markupauthor">
+                <string>jeise003@fiu.edu</string>
+            </f>
+            <f name="ID_number">
+                <string>2</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_FC3A5DDD-8632-4E32-ABAC-9D85A39BBF40" type="CATMA_B37247D7-E35E-42CA-B55F-D7168A9582BA">
+            <f name="catma_displaycolor">
+                <string>-398073</string>
+            </f>
+            <f name="catma_markupauthor">
+                <string>jeise003@fiu.edu</string>
+            </f>
+            <f name="narrative_name"/>
+            <f name="ID_number">
+                <string>1</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_4F7211F1-3427-499F-88C7-84F4537B59C3" type="CATMA_F07E1FDB-90E6-4D2E-9A88-DD76BEE5933B">
+            <f name="catma_displaycolor">
+                <string>-11630898</string>
+            </f>
+            <f name="catma_markupauthor">
+                <string>jeise003@fiu.edu</string>
+            </f>
+            <f name="ID_number">
+                <string>2</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_98DCA609-1BDD-49C9-92F9-346C88C23F02" type="CATMA_B37247D7-E35E-42CA-B55F-D7168A9582BA">
+            <f name="catma_displaycolor">
+                <string>-398073</string>
+            </f>
+            <f name="catma_markupauthor">
+                <string>jeise003@fiu.edu</string>
+            </f>
+            <f name="narrative_name"/>
+            <f name="ID_number">
+                <string>1</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_9DC8FFED-212A-471E-A5C1-CE97EF673830" type="CATMA_F07E1FDB-90E6-4D2E-9A88-DD76BEE5933B">
+            <f name="catma_displaycolor">
+                <string>-11630898</string>
+            </f>
+            <f name="catma_markupauthor">
+                <string>jeise003@fiu.edu</string>
+            </f>
+            <f name="ID_number">
+                <string>3</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_64AA5575-92BC-4534-827C-5D7B6EA190D4" type="CATMA_F07E1FDB-90E6-4D2E-9A88-DD76BEE5933B">
+            <f name="catma_displaycolor">
+                <string>-11630898</string>
+            </f>
+            <f name="catma_markupauthor">
+                <string>jeise003@fiu.edu</string>
+            </f>
+            <f name="ID_number">
+                <string>4</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_6ADCD916-446C-429E-B487-8FCAACF7F8E3" type="CATMA_B37247D7-E35E-42CA-B55F-D7168A9582BA">
+            <f name="catma_displaycolor">
+                <string>-398073</string>
+            </f>
+            <f name="catma_markupauthor">
+                <string>jeise003@fiu.edu</string>
+            </f>
+            <f name="narrative_name"/>
+            <f name="ID_number">
+                <string>1</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_3701943D-0350-4755-9F1B-0F2CA6A476B9" type="CATMA_F07E1FDB-90E6-4D2E-9A88-DD76BEE5933B">
+            <f name="catma_displaycolor">
+                <string>-11630898</string>
+            </f>
+            <f name="catma_markupauthor">
+                <string>jeise003@fiu.edu</string>
+            </f>
+            <f name="ID_number">
+                <string>5</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_33B4BF38-F7D7-4928-9064-BF33D57A9141" type="CATMA_F07E1FDB-90E6-4D2E-9A88-DD76BEE5933B">
+            <f name="catma_displaycolor">
+                <string>-11630898</string>
+            </f>
+            <f name="catma_markupauthor">
+                <string>jeise003@fiu.edu</string>
+            </f>
+            <f name="ID_number">
+                <string>6</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_8908E5AF-9EEC-4F90-A2B1-C5885228E666" type="CATMA_F07E1FDB-90E6-4D2E-9A88-DD76BEE5933B">
+            <f name="catma_displaycolor">
+                <string>-11630898</string>
+            </f>
+            <f name="catma_markupauthor">
+                <string>jeise003@fiu.edu</string>
+            </f>
+            <f name="ID_number">
+                <string>6</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_A65F5788-3F31-4CFD-9E5F-38DD7DD024A7" type="CATMA_F07E1FDB-90E6-4D2E-9A88-DD76BEE5933B">
+            <f name="catma_displaycolor">
+                <string>-11630898</string>
+            </f>
+            <f name="catma_markupauthor">
+                <string>jeise003@fiu.edu</string>
+            </f>
+            <f name="ID_number">
+                <string>6</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_D6CDC0F6-12D9-4F47-8B42-71473E699CFC" type="CATMA_F07E1FDB-90E6-4D2E-9A88-DD76BEE5933B">
+            <f name="catma_displaycolor">
+                <string>-11630898</string>
+            </f>
+            <f name="catma_markupauthor">
+                <string>jeise003@fiu.edu</string>
+            </f>
+            <f name="ID_number">
+                <string>6</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_C270773A-11E0-4C14-81EA-CB3F87568064" type="CATMA_F07E1FDB-90E6-4D2E-9A88-DD76BEE5933B">
+            <f name="catma_displaycolor">
+                <string>-11630898</string>
+            </f>
+            <f name="catma_markupauthor">
+                <string>jeise003@fiu.edu</string>
+            </f>
+            <f name="ID_number">
+                <string>6</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_A4D69056-8E36-4057-A5F4-3FFDE7A2924C" type="CATMA_F07E1FDB-90E6-4D2E-9A88-DD76BEE5933B">
+            <f name="catma_displaycolor">
+                <string>-11630898</string>
+            </f>
+            <f name="catma_markupauthor">
+                <string>jeise003@fiu.edu</string>
+            </f>
+            <f name="ID_number">
+                <string>6</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_F48BADE1-A034-4C51-A441-32983B8D5028" type="CATMA_B37247D7-E35E-42CA-B55F-D7168A9582BA">
+            <f name="catma_displaycolor">
+                <string>-398073</string>
+            </f>
+            <f name="catma_markupauthor">
+                <string>jeise003@fiu.edu</string>
+            </f>
+            <f name="narrative_name"/>
+            <f name="ID_number">
+                <string>1</string>
+            </f>
+        </fs>
+        <fs xml:id="CATMA_724B2B3D-A87C-4B11-8A8F-5FCFBF5E754F" type="CATMA_F07E1FDB-90E6-4D2E-9A88-DD76BEE5933B">
+            <f name="catma_displaycolor">
+                <string>-11630898</string>
+            </f>
+            <f name="catma_markupauthor">
+                <string>jeise003@fiu.edu</string>
+            </f>
+            <f name="ID_number">
+                <string>7</string>
+            </f>
+        </fs>
+    </text>
+</TEI>
