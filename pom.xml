@@ -5,11 +5,64 @@
 	<groupId>de.unistuttgart.ims.creta</groupId>
 	<artifactId>catma2uima</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<description>An input reader for UIMA that reads in CATMA 5 TEI exports</description>
 	<properties>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
+	<licenses>
+		<license>
+			<name>Apache License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+	<developers>
+		<developer>
+			<id>reiterns</id>
+			<name>Nils Reiter</name>
+			<email>nils.reiter@ims.uni-stuttgart.de</email>
+		</developer>
+	</developers>
+	<issueManagement>
+		<system>GitHub Issues</system>
+		<url>https://github.com/nilsreiter/catma2uima/issues</url>
+	</issueManagement>
+	<scm>
+		<url>https://github.com/nilsreiter/catma2uima</url>
+		<connection>scm:git:git://github.com/nilsreiter/catma2uima.git</connection>
+		<developerConnection>scm:git:git@github.com/nilsreiter/catma2uima.git</developerConnection>
+	</scm>
+	<distributionManagement>
+		<repository>
+			<id>ossrh</id>
+			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+		</repository>
+	</distributionManagement>
+	<profiles>
+		<profile>
+			<id>release</id>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-gpg-plugin</artifactId>
+						<version>1.6</version>
+						<executions>
+							<execution>
+								<id>sign-artifacts</id>
+								<phase>verify</phase>
+								<goals>
+									<goal>sign</goal>
+								</goals>
+							</execution>
+						</executions>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+	</profiles>
 	<dependencies>
 		<dependency>
 			<groupId>org.apache.uima</groupId>
@@ -62,6 +115,62 @@
 
 							<limitToProject>true</limitToProject>
 						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-source-plugin</artifactId>
+				<version>3.1.0</version>
+				<executions>
+					<execution>
+						<id>attach-sources</id>
+						<goals>
+							<goal>jar-no-fork</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-javadoc-plugin</artifactId>
+				<version>3.1.1</version>
+				<configuration>
+					<header>${project.name}, ${project.version}</header>
+					<footer>${project.name}, ${project.version}</footer>
+					<doctitle>${project.name}, ${project.version}</doctitle>
+					<additionalparam>-Xdoclint:none</additionalparam>
+					<detectLinks />
+					<source>8</source>
+					<tags>
+						<tag>
+							<name>generated</name>
+							<placement>X</placement>
+							<head>Generated</head>
+						</tag>
+						<tag>
+							<name>modifiable</name>
+							<placement>X</placement>
+							<head>modifiable</head>
+						</tag>
+						<tag>
+							<name>ordered</name>
+							<placement>X</placement>
+							<head>ordered</head>
+						</tag>
+						<tag>
+							<name>param</name>
+							<placement>X</placement>
+							<head>param</head>
+						</tag>
+					</tags>
+				</configuration>
+				<executions>
+					<execution>
+						<id>attach-javadocs</id>
+						<goals>
+							<goal>jar</goal>
+						</goals>
 					</execution>
 				</executions>
 			</plugin>
