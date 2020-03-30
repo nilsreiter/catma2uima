@@ -13,7 +13,6 @@ import org.apache.uima.collection.CollectionException;
 import org.apache.uima.fit.component.JCasCollectionReader_ImplBase;
 import org.apache.uima.fit.descriptor.ConfigurationParameter;
 import org.apache.uima.jcas.JCas;
-import org.apache.uima.jcas.tcas.DocumentAnnotation;
 import org.apache.uima.resource.ResourceInitializationException;
 import org.apache.uima.util.Progress;
 import org.eclipse.collections.api.factory.Lists;
@@ -26,6 +25,7 @@ import org.eclipse.collections.impl.factory.Multimaps;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
+import de.tudarmstadt.ukp.dkpro.core.api.metadata.type.DocumentMetaData;
 import de.unistuttgart.ims.creta.catma2uima.types.CatmaAnnotation;
 import de.unistuttgart.ims.creta.catma2uima.types.Seg;
 import de.unistuttgart.ims.uima.io.xml.GenericXmlReader;
@@ -83,6 +83,9 @@ public class CATMA5InputReader extends JCasCollectionReader_ImplBase {
 		File file = files.get(current++);
 		try (FileInputStream fis = new FileInputStream(file)) {
 			jcas = process(jcas, fis);
+			DocumentMetaData dmd = DocumentMetaData.get(jcas);
+			dmd.setDocumentUri(file.toURI().toString());
+			dmd.setDocumentId(file.getName());
 		} catch (UIMAException e) {
 			throw new CollectionException(e);
 		}
@@ -103,11 +106,12 @@ public class CATMA5InputReader extends JCasCollectionReader_ImplBase {
 				return Integer.compare(o1.getBegin(), o2.getBegin());
 			}
 		});
-		GenericXmlReader<DocumentAnnotation> reader;
+		GenericXmlReader<DocumentMetaData> reader;
 
-		reader = new GenericXmlReader<DocumentAnnotation>(DocumentAnnotation.class);
+		reader = new GenericXmlReader<DocumentMetaData>(DocumentMetaData.class);
 		reader.setPreserveWhitespace(false);
 		reader.setTextRootSelector("TEI > text > body");
+
 		reader.addGlobalRule("fsDecl", (a, e) -> {
 			String typeName = e.selectFirst("fsDescr").text();
 			typeId2description.put(e.attr("xml:id"), typeName);
