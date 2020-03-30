@@ -35,6 +35,7 @@ public class CATMA5InputReader extends JCasCollectionReader_ImplBase {
 	public static final String PARAM_INPUT_DIRECTORY = "PARAM_INPUT_DIRECTORY";
 	public static final String PARAM_FILE_SUFFIX = "PARAM_FILE_SUFFIX";
 	public static final String PARAM_RECURSIVE = "PARAM_RECURSIVE";
+	public static final String PARAM_LANGUAGE = "PARAM_LANGUAGE";
 
 	@ConfigurationParameter(name = PARAM_INPUT_DIRECTORY)
 	String inputDirectoryName;
@@ -44,6 +45,9 @@ public class CATMA5InputReader extends JCasCollectionReader_ImplBase {
 
 	@ConfigurationParameter(name = PARAM_RECURSIVE, mandatory = false, defaultValue = "false")
 	boolean recursive;
+
+	@ConfigurationParameter(name = PARAM_LANGUAGE, mandatory = false, defaultValue = "x-unspecified")
+	String language;
 
 	ImmutableList<File> files;
 	// File[] files;
@@ -166,6 +170,9 @@ public class CATMA5InputReader extends JCasCollectionReader_ImplBase {
 
 		// SimplePipeline.runPipeline(jcas,
 		// AnalysisEngineFactory.createEngineDescription(AnnotationMerger.class));
+
+		// set document language
+		jcas.setDocumentLanguage(language);
 
 		return jcas;
 	}
