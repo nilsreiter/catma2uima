@@ -29,6 +29,7 @@ import de.tudarmstadt.ukp.dkpro.core.api.metadata.type.DocumentMetaData;
 import de.unistuttgart.ims.creta.catma2uima.types.CatmaAnnotation;
 import de.unistuttgart.ims.creta.catma2uima.types.Seg;
 import de.unistuttgart.ims.uima.io.xml.GenericXmlReader;
+import de.unistuttgart.ims.uima.io.xml.WhitespaceHandling;
 
 public class CATMA5InputReader extends JCasCollectionReader_ImplBase {
 
@@ -109,7 +110,7 @@ public class CATMA5InputReader extends JCasCollectionReader_ImplBase {
 		GenericXmlReader<DocumentMetaData> reader;
 
 		reader = new GenericXmlReader<DocumentMetaData>(DocumentMetaData.class);
-		reader.setPreserveWhitespace(false);
+		reader.setWhitespaceHandling(WhitespaceHandling.INTELLIGENT);
 		reader.setTextRootSelector("TEI > text > body");
 
 		reader.addGlobalRule("fsDecl", (a, e) -> {
